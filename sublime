@@ -1,4 +1,4 @@
 #!/bin/bash
-#runs sublime
+#Runs Sublime, passing arguments for files.
 
 /opt/sublime_text/sublime_text "$@"
