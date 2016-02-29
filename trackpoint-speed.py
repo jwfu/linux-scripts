@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#figures out which input device ID is the trackpoint, and makes the trackpoint faster
 
 import os
 import re
