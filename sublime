@@ -1,0 +1,4 @@
+#!/bin/bash
+#runs sublime
+
+/opt/sublime_text/sublime_text "$@"
