@@ -1,0 +1,4 @@
+#! /bin/sh
+
+xrandr --output VGA1 --rotate normal
+xrandr --output DP3 --rotate normal
