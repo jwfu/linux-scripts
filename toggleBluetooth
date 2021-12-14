@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+
+import os
+stream = os.popen('rfkill | grep bluetooth')
+output = stream.read()
+
+if output.find('unblocked unblocked') != -1:
+    os.popen('rfkill block bluetooth')
+
+else:
+    os.popen('rfkill unblock bluetooth')
